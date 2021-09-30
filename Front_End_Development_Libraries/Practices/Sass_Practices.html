@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style type='text/scss'>
+
+        @for $j from 1 through 5 {
+          .text-#{$j} { font-size: (15px * ($j)); }
+        }
+
+        $colors: (color1: blue, color2: black, color3: red);
+
+        @each $key, $color in $colors {
+        .#{$color}-bg {background-color: $color;}
+        }
+
+div {
+  height: 200px;
+  width: 200px;
+}
+        
+    </style>
+    
+</head>
+<body>
+
+        
+        <p class="text-1">Hello</p>
+        <p class="text-2">Hello</p>
+        <p class="text-3">Hello</p>
+        <p class="text-4">Hello</p>
+        <p class="text-5">Hello</p>  
+
+        <div class="blue-bg"></div>
+        <div class="black-bg"></div>
+        <div class="red-bg"></div>
+</body>
+</html>
