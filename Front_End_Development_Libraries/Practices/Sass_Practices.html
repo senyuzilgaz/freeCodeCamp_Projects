@@ -11,6 +11,12 @@
           .text-#{$j} { font-size: (15px * ($j)); }
         }
 
+        $x: 1;
+        @while $x < 6 {
+        .text-#{$x} {font-size: 15px* $x;}
+        $x: $x +1;
+        }
+
         $colors: (color1: blue, color2: black, color3: red);
 
         @each $key, $color in $colors {
