@@ -1,3 +1,5 @@
+{/* This is 
+    How you add comments */}
 const JSX = <div id="wrapper">
                 <h1> Hi!</h1>
                 <p> Here are 3 things that I love</p>
@@ -7,3 +9,4 @@ const JSX = <div id="wrapper">
                   <li> Watching Films  </li>
                 </ul>
             </div>
+ReactDOM.render(JSX, document.getElementById("challenge-node"));
