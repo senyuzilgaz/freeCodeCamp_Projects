@@ -17,6 +17,20 @@ const JSX = (
   </div>
 );
 
+class MyComponent extends React.Component {
+  constructor(props) {
+    super(props);
+  }
+  render() {
+  
+    return (
+      <div>
+        <h1>Hello React! </h1>
+      </div>
+    );
+  }
+};
+
 const MyComponent = function() {
 
   return ( <div> I have created component </div>);
