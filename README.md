@@ -1,5 +1,5 @@
 # Responsive_Web_Design-freeCodeCamp-
-- Here you can find my projects and practices forr freeCodeCamp.
+- Here you can find my projects and practices for freeCodeCamp.
 
 - Projects and practices are for following freecCodeCamp certificates:
 
