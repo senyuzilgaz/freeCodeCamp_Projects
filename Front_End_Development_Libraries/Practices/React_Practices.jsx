@@ -17,4 +17,9 @@ const JSX = (
   </div>
 );
 
+const MyComponent = function() {
+
+  return ( <div> I have created component </div>);
+};
+
 ReactDOM.render(JSX, document.getElementById("challenge-node"));
