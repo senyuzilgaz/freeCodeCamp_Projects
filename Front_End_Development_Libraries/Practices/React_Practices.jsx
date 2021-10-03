@@ -157,6 +157,32 @@ class Calendar extends React.Component {
     );
   }
 };
+const List = (props) => {
+
+  return <p>{props.tasks.join(', ')}</p>
+
+};
+
+class ToDo extends React.Component {
+  constructor(props) {
+    super(props);
+  }
+  render() {
+    return (
+      <div>
+        <h1>To Do Lists</h1>
+        <h2>Today</h2>
+
+        <List tasks={["fistik","selen"]} />
+
+        <h2>Tomorrow</h2>
+
+        <List tasks={["selen","fistik","ilgaz"]}/>
+
+      </div>
+    );
+  }
+};
 
 ReactDOM.render(<MyComponent />, document.getElementById('challenge-node'));
 ReactDOM.render(JSX, document.getElementById("challenge-node"));
