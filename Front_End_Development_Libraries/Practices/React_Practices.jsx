@@ -184,6 +184,15 @@ class ToDo extends React.Component {
   }
 };
 
+const ShoppingCart = (props) => {
+  return (
+    <div>
+      <h1>Shopping Cart Component</h1>
+    </div>
+  )
+};
+ShoppingCart.defaultProps = {items: 0, user: "ilgazsenyuz", topic: "React"};
+
 ReactDOM.render(<MyComponent />, document.getElementById('challenge-node'));
 ReactDOM.render(JSX, document.getElementById("challenge-node"));
 ReactDOM.render(<TypesOfFood />,document.getElementById('challenge-node'));
